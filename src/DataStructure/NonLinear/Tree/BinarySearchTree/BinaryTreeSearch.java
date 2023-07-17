@@ -20,4 +20,9 @@ public class BinaryTreeSearch implements BasicOperator {
     public void inOrderTraverse() {
         this.inOrderTraverse(this.root);
     }
+
+    @Override
+    public void printNodeAtLevel(int level) {
+        this.printNodeAtLevel(level, this.root);
+    }
 }

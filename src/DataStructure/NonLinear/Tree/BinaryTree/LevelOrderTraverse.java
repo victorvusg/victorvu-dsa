@@ -6,7 +6,11 @@ import java.util.Deque;
 import java.util.Stack;
 
 public interface LevelOrderTraverse<E> {
-    public default void levelOrderTraverse(ArrayList<Node<E>> nodes) {
+
+    /**
+     * Level Order Traversal by Recursion
+     */
+    default void levelOrderTraverseRecursion(ArrayList<Node<E>> nodes) {
         //
         if (nodes.size() == 0) return;
 
@@ -17,10 +21,13 @@ public interface LevelOrderTraverse<E> {
             if (currentNode.rightNode != null) childNodes.add(currentNode.rightNode);
         }
 
-        levelOrderTraverse(childNodes);
+        levelOrderTraverseRecursion(childNodes);
     }
 
-    public default void levelOrderTraverseSpiralForm(Deque<Node<E>> childNodes, int height) {
+    /**
+     * Level Order Traversal Spiral Form with recursion
+     */
+    default void levelOrderTraverseSpiralForm(Deque<Node<E>> childNodes, int height) {
         if (childNodes.size() == 0) return;
 
         int childNodeCount = childNodes.size();
@@ -50,6 +57,7 @@ public interface LevelOrderTraverse<E> {
 
     /**
      * Traverse from bottom to top, from left to right
+     * With Recursion
      */
     public default Stack<Node<E>> reverseLevelOrderTraversal (Stack<Node<E>> node, ArrayDeque<Node<E>> childNode) {
         if (childNode.size() < 1) return node;
@@ -70,6 +78,10 @@ public interface LevelOrderTraverse<E> {
         return reverseLevelOrderTraversal(node, childNode);
     }
 
+    /**
+     * Reverse Level Order Traversal
+     * With Recursion
+     */
     public default void reverseLevelOrderTraversal (Node<E> rootNode) {
         Stack<Node<E>> stack = new Stack<>();
         ArrayDeque<Node<E>> childNodes = new ArrayDeque<>();

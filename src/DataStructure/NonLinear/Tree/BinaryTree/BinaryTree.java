@@ -49,8 +49,10 @@ public class BinaryTree<E> implements
 
 
     // Level Order Traversal =====================
-    void levelOrderTraverse() {
-        this.levelOrderTraverse(new ArrayList<Node<E>>(List.of(this.root)));
+
+
+    void levelOrderTraverseRecursion() {
+        this.levelOrderTraverseRecursion(new ArrayList<Node<E>>(List.of(this.root)));
     }
 
     void levelOrderTraverseSpiralForm() {
