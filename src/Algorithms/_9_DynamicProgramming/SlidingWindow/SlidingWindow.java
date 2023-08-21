@@ -1,4 +1,4 @@
-package Algorithms._9_DynamicProgramming;
+package Algorithms._9_DynamicProgramming.SlidingWindow;
 
 import java.util.Arrays;
 
@@ -8,6 +8,8 @@ public class SlidingWindow {
         int[] arr = new int[]{-1, 5, 1, 2, -2, 6, -2};
         findSubArrayWithSumMaster(arr, 5);
     }
+
+
 
     public static void findSubArrayWithSumMaster(int[] arr, int total) {
 

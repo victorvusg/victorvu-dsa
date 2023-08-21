@@ -1,4 +1,4 @@
-package Algorithms;
+package Algorithms._9_DynamicProgramming.TwoPointer;
 
 import java.util.Arrays;
 
