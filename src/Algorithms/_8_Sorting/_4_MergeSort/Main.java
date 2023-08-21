@@ -1,4 +1,4 @@
-package Algorithms.Sorting._4_MergeSort;
+package Algorithms._8_Sorting._4_MergeSort;
 
 import java.util.Arrays;
 

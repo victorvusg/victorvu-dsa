@@ -1,4 +1,4 @@
-package Algorithms.Sorting;
+package Algorithms._8_Sorting;
 
 public class Utils {
     public static void main(String[] args) {

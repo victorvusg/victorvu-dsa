@@ -1,4 +1,4 @@
-package Algorithms.Sorting._6_HeapSort;
+package Algorithms._8_Sorting._6_HeapSort;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package Algorithms.Searching._2_BinarySearch;
+package Algorithms._7_Searching._2_BinarySearch;
 
 public class Main {
     public static void main(String[] args) {

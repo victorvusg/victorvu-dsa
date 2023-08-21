@@ -1,4 +1,4 @@
-package Algorithms.Sorting._1_SelectionSort;
+package Algorithms._8_Sorting._1_SelectionSort;
 
 import java.util.Arrays;
 

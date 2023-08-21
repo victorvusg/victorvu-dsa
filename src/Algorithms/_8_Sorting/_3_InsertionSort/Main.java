@@ -1,4 +1,4 @@
-package Algorithms.Sorting._3_InsertionSort;
+package Algorithms._8_Sorting._3_InsertionSort;
 
 import java.util.Arrays;
 

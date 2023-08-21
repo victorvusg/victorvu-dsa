@@ -1,4 +1,4 @@
-package Algorithms.Sorting._5_QuickSort;
+package Algorithms._8_Sorting._5_QuickSort;
 
 import java.util.Arrays;
 

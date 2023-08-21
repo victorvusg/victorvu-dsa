@@ -1,4 +1,4 @@
-package Algorithms.Searching._1_LinearSearch;
+package Algorithms._7_Searching._1_LinearSearch;
 
 public class Main {
     public static void main(String[] args) {
