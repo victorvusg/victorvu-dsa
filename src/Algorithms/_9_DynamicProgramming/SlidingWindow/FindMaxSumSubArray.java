@@ -2,7 +2,10 @@ package Algorithms._9_DynamicProgramming.SlidingWindow;
 
 import java.util.Arrays;
 
-public class FindMaxSumSubArrayKadaneAlgorithms {
+/**
+ * Kadane's Algorithms
+ */
+public class FindMaxSumSubArray {
     public static void main(String[] args) {
         //
         int[] array = new int[]{-1, 5, 1, 2, -2, 6, -1, 6, -5, 5, 1}; // length = 9
