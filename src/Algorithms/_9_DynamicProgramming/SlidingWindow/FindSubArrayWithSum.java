@@ -2,16 +2,19 @@ package Algorithms._9_DynamicProgramming.SlidingWindow;
 
 import java.util.Arrays;
 
-public class SlidingWindow {
+public class FindSubArrayWithSum {
     public static void main(String[] args) {
         // Find sub-array with sum = 7
         int[] arr = new int[]{-1, 5, 1, 2, -2, 6, -2};
-        findSubArrayWithSumMaster(arr, 5);
+        findSubArrayWithSumPositive(arr, 5);
     }
 
-
-
-    public static void findSubArrayWithSumMaster(int[] arr, int total) {
+    /**
+     *
+     * @param arr
+     * @param total
+     */
+    public static void findSubArrayWithSumAll(int[] arr, int total) {
 
         int start = 0;
         int sum = 0;
@@ -29,7 +32,12 @@ public class SlidingWindow {
         }
     }
 
-    public static void findSubArrayWithSum(int[] arr, int total) {
+    /**
+     * Find sub
+     * @param arr
+     * @param total
+     */
+    public static void findSubArrayWithSumPositive(int[] arr, int total) {
 
         int start = 0;
         int sum = 0;
